@@ -48,7 +48,7 @@ class ViewController: UITableViewController {
                 showError()
             }
         } else {
-            showError()
+            showError() //There is another way to do this tha has return after parse and then showError() before the last curly bracket
         }
     }
     
